@@ -7,7 +7,11 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorCursor.background": "#1c1c1c",
-		"editorCursor.foreground": "#ff8700" // Cursor color
+		"editorCursor.foreground": "#ff8700", // Cursor color
+
+		// Line number color for currently selected row,
+		// found in 'StatusLine' vim highlight rule
+		"editorLineNumber.activeForeground": "#dadada",
 	},
 	"tokenColors": [
 		{
@@ -459,6 +463,16 @@
 			],
 			"settings": {
 				"foreground": "#ffd787"
+			}
+		},
+		{
+			"name": "Regular Expressions - Groups",
+			"scope": [
+				"entity.name.tag.named.group.regexp"
+			],
+			"settings": {
+				"foreground": "#ff005f",
+				"fontStyle": "bold"
 			}
 		},
 		{
