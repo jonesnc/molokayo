@@ -908,5 +908,14 @@
 				"foreground": "#5fd7ff"
 			}
 		},
+		{
+			"name": "PL/SQL - Misc Keyword",
+			"scope": [
+				"keyword.other.oracle",
+			],
+			"settings": {
+				"foreground": "#ff005f"
+			}
+		},
 	]
 }
