@@ -931,5 +931,14 @@
 				"foreground": "#ff005f"
 			}
 		},
+		{
+			"name": "PL/SQL - Function keyword",
+			"scope": [
+				"meta.procedure.oracle keyword.other.oracle",
+			],
+			"settings": {
+				"foreground": "#5fd7ff"
+			}
+		},
 	]
 }
