@@ -491,7 +491,8 @@
 				"storage.type.function.arrow.js"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#ff005f",
+				"fontStyle": "bold",
 			}
 		},
 		{
