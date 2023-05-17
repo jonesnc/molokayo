@@ -7,7 +7,7 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorCursor.background": "#1c1c1c",
-		"editorCursor.foreground": "#ff8700", // Cursor color
+		"editorCursor.foreground": "#ff005f", // Cursor color
 
 		// Line number color for currently selected row,
 		// found in 'StatusLine' vim highlight rule
@@ -122,8 +122,7 @@
 				"storage.type.js",
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold",
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -181,7 +180,6 @@
 			],
 			"settings": {
 				"foreground": "#AE81FF",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -239,8 +237,7 @@
 				"meta.fstring.python storage.type.string.python",
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -250,7 +247,6 @@
 			],
 			"settings": {
 				"foreground": "#87ff00",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -459,8 +455,7 @@
 				"entity.name.tag.named.group.regexp"
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -469,8 +464,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -490,8 +484,7 @@
 				"storage.type.function.arrow.js"
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold",
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -687,7 +680,6 @@
 				"meta.separator"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#65737E"
 			}
 		},
@@ -710,8 +702,7 @@
 				"storage.type.string"
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 
@@ -721,8 +712,7 @@
 				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -776,8 +766,7 @@
 				"punctuation.definition.tag.end.html",
 			],
 			"settings": {
-				"foreground": "#ff005f",
-				"fontStyle": "bold"
+				"foreground": "#ff005f"
 			}
 		},
 		{
@@ -808,7 +797,6 @@
 			],
 			"settings": {
 				"foreground": "#00d75f",
-				"fontStyle": "bold"
 			}
 		},
 
@@ -820,7 +808,6 @@
 			],
 			"settings": {
 				"foreground": "#5fd7ff",
-				"fontStyle": "bold"
 			}
 		},
 		{
