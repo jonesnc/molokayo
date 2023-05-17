@@ -2,7 +2,7 @@
   "name": "molokayo",
   "displayName": "molokayo",
   "description": "A very tweaked molokai based theme. Based on the vim theme by fmoralesc.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "jonesnc",
   "repository": "https://github.com/jonesnc/molokayo",
   "engines": {
@@ -17,6 +17,11 @@
         "label": "Molokayo",
         "uiTheme": "vs-dark",
         "path": "./themes/Molokayo-color-theme.json"
+      },
+      {
+        "label": "Molokayo - Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Molokayo-color-theme-bold.json"
       }
     ]
   }
