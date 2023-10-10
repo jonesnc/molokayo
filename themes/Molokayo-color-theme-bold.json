@@ -3,11 +3,11 @@
     "type": "dark",
     "colors": {
         "editor.background": "#1c1c1c",
-        "editor.foreground": "#eeffff",
+        "editor.foreground": "#d0d0d0",
         "activityBarBadge.background": "#007acc",
         "sideBarTitle.foreground": "#bbbbbb",
         "editorCursor.background": "#1c1c1c",
-        "editorCursor.foreground": "#ff005f", // Cursor color
+        "editorCursor.foreground": "#f92672", // Cursor color
 
         // Line number color for currently selected row,
         // found in 'StatusLine' vim highlight rule
@@ -20,7 +20,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#a8a8a8"
+                "foreground": "#7E8E91"
             }
         },
         {
@@ -29,7 +29,7 @@
                 "text"
             ],
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#d0d0d0"
             }
         },
         {
@@ -50,7 +50,7 @@
                 "meta.function-call.arguments"
             ],
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#d0d0d0"
             }
         },
         {
@@ -70,7 +70,7 @@
                 "constant.other.color"
             ],
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#d0d0d0"
             }
         },
         {
@@ -93,23 +93,31 @@
                 "foreground": "#FF5370"
             }
         },
-        {
-            "name": "Storage",
-            "scope": [
-                "storage.type",
-                "storage.modifier"
-            ],
-            "settings": {
-                "foreground": "#ff8700"
-            }
-        },
+		{
+			"name": "Storage",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#FD971F"
+			}
+		},
         {
             "name": "Define",
             "scope": [
                 "storage.type.function"
             ],
             "settings": {
-                "foreground": "#5fd7ff"
+                "foreground": "#F92672"
             }
         },
         {
@@ -121,7 +129,7 @@
                 "storage.type.js",
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold",
             }
         },
@@ -199,7 +207,7 @@
                 "keyword.other"
             ],
             "settings": {
-                "foreground": "#ff005f"
+                "foreground": "#f92672"
             }
         },
         {
@@ -219,7 +227,7 @@
                 "support.type.exception"
             ],
             "settings": {
-                "foreground": "#87ff00",
+                "foreground": "#66d9ef",
             }
         },
         {
@@ -238,7 +246,7 @@
                 "meta.fstring.python storage.type.string.python",
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -248,7 +256,7 @@
                 "entity.name.type.class",
             ],
             "settings": {
-                "foreground": "#87ff00",
+                "foreground": "#66d9ef",
                 "fontStyle": "bold"
             }
         },
@@ -258,7 +266,7 @@
                 "entity.other.inherited-class",
             ],
             "settings": {
-                "foreground": "#87ff00",
+                "foreground": "#66d9ef",
             }
         },
         {
@@ -275,12 +283,20 @@
             }
         },
         {
+            "name": "Class Storage Modifier",
+            "scope": [
+				"storage.type.class",
+            ],
+            "settings": {
+                "foreground": "#F92672",
+            }
+        },
+        {
             "name": "Class, Support, Global Functions",
             "scope": [
                 "entity.name",
                 "support.type",
                 "support.class",
-                "storage.type.class",
                 "support.constant",
                 "support.orther.namespace.use.php",
                 "support.function.construct.output",
@@ -335,6 +351,7 @@
             "name": "Imports / Includes / Preprocessor / Exports",
             "scope": [
                 "keyword.control.import",
+                "keyword.control.from",
                 "keyword.control.directive.include",
                 "support.type.object.module.js",
             ],
@@ -355,7 +372,7 @@
                 "support.function.magic.python",
             ],
             "settings": {
-                "foreground": "#87ff00"
+                "foreground": "#A6E22E"
             }
         },
         {
@@ -458,7 +475,7 @@
                 "entity.name.tag.named.group.regexp"
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -468,7 +485,7 @@
                 "constant.character.escape"
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -489,7 +506,7 @@
                 "storage.type.function.arrow.js"
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold",
             }
         },
@@ -709,7 +726,7 @@
                 "storage.type.string"
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -720,7 +737,7 @@
                 "constant.character.format.placeholder.other.python"
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -775,7 +792,7 @@
                 "punctuation.definition.tag.end.html",
             ],
             "settings": {
-                "foreground": "#ff005f",
+                "foreground": "#f92672",
                 "fontStyle": "bold"
             }
         },
@@ -846,7 +863,7 @@
                 "keyword.other.oracle",
             ],
             "settings": {
-                "foreground": "#ff005f"
+                "foreground": "#f92672"
             }
         },
         {
@@ -856,6 +873,17 @@
             ],
             "settings": {
                 "foreground": "#5fd7ff"
+            }
+        },
+
+        // Dockerfile
+        {
+            "name": "Docker commands",
+            "scope": [
+                "keyword.other.special-method.dockerfile",
+            ],
+            "settings": {
+                "foreground": "#f92672"
             }
         },
 
@@ -902,7 +930,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#ff005f"
+                "foreground": "#f92672"
             }
         },
         {

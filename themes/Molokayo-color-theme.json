@@ -7,7 +7,7 @@
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"editorCursor.background": "#1c1c1c",
-		"editorCursor.foreground": "#ff005f", // Cursor color
+		"editorCursor.foreground": "#f92672", // Cursor color
 
 		// Line number color for currently selected row,
 		// found in 'StatusLine' vim highlight rule
@@ -21,7 +21,7 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#a8a8a8"
+				"foreground": "#7E8E91"
 			}
 		},
 		{
@@ -30,7 +30,7 @@
 				"text"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#d0d0d0"
 			}
 		},
 		{
@@ -51,7 +51,7 @@
 				"meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#d0d0d0"
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#d0d0d0"
 			}
 		},
 		{
@@ -98,10 +98,18 @@
 			"name": "Storage",
 			"scope": [
 				"storage.type",
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#ff8700"
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -110,7 +118,7 @@
 				"storage.type.function"
 			],
 			"settings": {
-				"foreground": "#5fd7ff"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -122,7 +130,8 @@
 				"storage.type.js",
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
+				// "foreground": "#FF0000"
 			}
 		},
 		{
@@ -198,7 +207,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -218,7 +227,7 @@
 				"support.type.exception"
 			],
 			"settings": {
-				"foreground": "#87ff00",
+				"foreground": "#66d9ef",
 			}
 		},
 		{
@@ -237,7 +246,7 @@
 				"meta.fstring.python storage.type.string.python",
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -246,7 +255,7 @@
 				"entity.name.type.class",
 			],
 			"settings": {
-				"foreground": "#87ff00",
+				"foreground": "#66d9ef",
 			}
 		},
 		{
@@ -255,7 +264,7 @@
 				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#87ff00",
+				"foreground": "#66d9ef",
 			}
 		},
 		{
@@ -271,13 +280,21 @@
 				"foreground": "#C3E88D"
 			}
 		},
+        {
+            "name": "Class Storage Modifier",
+            "scope": [
+				"storage.type.class",
+            ],
+            "settings": {
+                "foreground": "#F92672",
+            }
+        },
 		{
 			"name": "Class, Support, Global Functions",
 			"scope": [
 				"entity.name",
 				"support.type",
 				"support.class",
-				"storage.type.class",
 				"support.constant",
 				"support.orther.namespace.use.php",
 				"support.function.construct.output",
@@ -332,6 +349,7 @@
 			"name": "Imports / Includes / Preprocessor / Exports",
 			"scope": [
 				"keyword.control.import",
+                "keyword.control.from",
 				"keyword.control.directive.include",
 				"support.type.object.module.js",
 			],
@@ -352,7 +370,7 @@
 				"support.function.magic.python",
 			],
 			"settings": {
-				"foreground": "#87ff00"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -455,7 +473,7 @@
 				"entity.name.tag.named.group.regexp"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -464,7 +482,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -484,7 +502,7 @@
 				"storage.type.function.arrow.js"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -702,7 +720,7 @@
 				"storage.type.string"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 
@@ -712,7 +730,7 @@
 				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -766,7 +784,7 @@
 				"punctuation.definition.tag.end.html",
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -834,7 +852,7 @@
 				"keyword.other.oracle",
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
@@ -846,6 +864,17 @@
 				"foreground": "#5fd7ff"
 			}
 		},
+
+        // Dockerfile
+        {
+            "name": "Docker commands",
+            "scope": [
+                "keyword.other.special-method.dockerfile",
+            ],
+            "settings": {
+                "foreground": "#f92672"
+            }
+        },
 
 		// JSON
 		{
@@ -890,7 +919,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ff005f"
+				"foreground": "#f92672"
 			}
 		},
 		{
