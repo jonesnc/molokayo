@@ -30,7 +30,7 @@ Colors taken from:
 | SpringGreen3    | <kbd>![#00d75f](./images/00d75f.png)</kbd> `#00d75f` | 41         | Imports, Special Characters and Delimiters                                              |
 | SteelBlue1      | <kbd>![#5fd7ff](./images/5fd7ff.png)</kbd> `#5fd7ff` | 81         | Built-in/Global Function calls, Types, Storage type Keywords (def, class, lambda, etc.) |
 | MediumPurple1   | <kbd>![#af87ff](./images/af87ff.png)</kbd> `#af87ff` | 141        | Built-in Constants (`None`, `True`, `False`, etc.)                                      |
-| GreenYellow     | <kbd>![#afff00](./images/afff00.png)</kbd> `#afff00` | 154        | Special function calls                                                                  |
+| GreenYellow     | <kbd>![#A6E22E](./images/A6E22E.png)</kbd> `#A6E22E` | 154        | Special function calls                                                                  |
 | DeepPink2       | <kbd>![#f92672](./images/ff005f.png)</kbd> `#f92672` | 197        | Misc. Keywords (control flow, `return`, etc.), SQL clause keywords                      |
 | DarkOrange      | <kbd>![#ff8700](./images/ff8700.png)</kbd> `#ff8700` | 208        | Special arguments, kwargs, `self`                                                       |
 | Orange1         | <kbd>![#ffaf00](./images/ffaf00.png)</kbd> `#ffaf00` | 214        | Struct/Object keys, function call kwarg keys                                            |

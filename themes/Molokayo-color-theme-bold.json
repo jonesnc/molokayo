@@ -24,30 +24,14 @@
             }
         },
         {
-            "name": "Misc Text",
+            "name": "Variables / Identifiers / Misc Text / Colors",
             "scope": [
-                "text"
-            ],
-            "settings": {
-                "foreground": "#d0d0d0"
-            }
-        },
-        {
-            "name": "Docstring keyword",
-            "scope": [
-                "keyword.other.phpdoc.php"
-            ],
-            "settings": {
-                "foreground": "#00d75f"
-            }
-        },
-        {
-            "name": "Variables / Identifiers",
-            "scope": [
-                "variable",
-                "string constant.other.placeholder",
+                "meta.function-call.arguments",
                 "source.python",
-                "meta.function-call.arguments"
+                "string constant.other.placeholder",
+                "constant.other.color",
+                "text",
+                "variable"
             ],
             "settings": {
                 "foreground": "#d0d0d0"
@@ -62,15 +46,6 @@
             "settings": {
                 "foreground": "#ff8700",
                 "fontStyle": ""
-            }
-        },
-        {
-            "name": "Colors",
-            "scope": [
-                "constant.other.color"
-            ],
-            "settings": {
-                "foreground": "#d0d0d0"
             }
         },
         {
@@ -161,15 +136,6 @@
                 "foreground": "#f07178"
             }
         },
-        // {
-        // 	"name": "Block Level Variables",
-        // 	"scope": [
-        // 		"meta.block variable.other"
-        // 	],
-        // 	"settings": {
-        // 		"foreground": "#f07178"
-        // 	}
-        // },
         {
             "name": "Other Variable, String Link",
             "scope": [
@@ -294,7 +260,6 @@
         {
             "name": "Class, Support, Global Functions",
             "scope": [
-                "entity.name",
                 "support.type",
                 "support.class",
                 "support.constant",
@@ -348,16 +313,19 @@
             }
         },
         {
-            "name": "Imports / Includes / Preprocessor / Exports",
+            "name": "Imports / Includes / Preprocessor / Exports / Django tags and variables",
             "scope": [
-                "keyword.control.import",
-                "keyword.control.from",
+                "entity.other.django.delimiter.tag",
+                "entity.other.django.delimiter.variable",
                 "keyword.control.directive.include",
-                "support.type.object.module.js",
+                "keyword.control.from",
+                "keyword.control.import",
+                "keyword.other.phpdoc.php",
+                "support.type.object.module.js"
             ],
             "settings": {
                 "foreground": "#00d75f",
-                "fontStyle": "",
+                "fontStyle": ""
             }
         },
         {
@@ -365,6 +333,7 @@
             "scope": [
                 "meta.function.js",
                 "entity.name.function",
+                "entity.name.type",
                 "meta.function-call",
                 "variable.function",
                 "keyword.other.special-method",
@@ -864,15 +833,6 @@
             ],
             "settings": {
                 "foreground": "#f92672"
-            }
-        },
-        {
-            "name": "PL/SQL - Function keyword",
-            "scope": [
-                "meta.procedure.oracle keyword.other.oracle",
-            ],
-            "settings": {
-                "foreground": "#5fd7ff"
             }
         },
 
